@@ -12,7 +12,7 @@ public String toString(){
 
 public void payEconomical(){
   if(balance < 2.50){
-    balance = balance;
+    balance = balance; 
   }else{
     balance-=2.50;
   } 
