@@ -6,13 +6,13 @@ this.balance=balance;
 }
 
 public String toString(){
-  String money = "This card has " + balance + " dollars.";
+  String money = "This card has " + balance + " dollars";
   return money;
 }
 
 public void payEconomical(){
   if(balance < 2.50){
-    balance = balance; 
+    balance = balance;
   }else{
     balance-=2.50;
   } 
@@ -27,13 +27,13 @@ public void payGourmet(){
 }
 
 public void loadMoney(double amount){
-  if(amount > 150){
-    balance = 150;
+  if(amount > 150.0){
+    balance = 150.0;
   }
 
   if(amount < 0){
     balance = balance;
-  }else if((amount + balance < 150)){
+  }else if((amount + balance < 150.0)){
     balance+=amount;
   }
 
