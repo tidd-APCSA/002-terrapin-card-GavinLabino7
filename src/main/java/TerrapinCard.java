@@ -6,7 +6,7 @@ this.balance=balance;
 }
 
 public String toString(){
-  String money = "This card has " + balance + " dollars";
+  String money = "The card has " + balance + " dollars";
   return money;
 }
 
